@@ -1,6 +1,6 @@
 import { ByChainNetwork } from "@type/common";
 
-export const NODE_RPC: ByChainNetwork<string> = {
+export const NODE_RPC_BY_CHAIN_NETWORK: ByChainNetwork<string> = {
   Ethereum: {
     mainnet:
       "https://speedy-nodes-nyc.moralis.io/f7c7e841367133b42ae9b4d5/eth/mainnet",

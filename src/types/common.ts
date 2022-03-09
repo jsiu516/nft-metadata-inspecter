@@ -7,3 +7,21 @@ export type ByChainNetwork<T> = {
     [network in Network]: T;
   };
 };
+
+export interface InspectorInput {
+  chain: Chain;
+  network: Network;
+  standard: ErcStandard;
+  contractAddress: string;
+  tokenId: string;
+}
+
+export interface IMetadata {
+  name: string;
+  description: string;
+  image: string;
+  attributes: Array<{
+    trait_type: string,
+    value: string,
+  }>
+}

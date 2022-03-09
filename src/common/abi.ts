@@ -653,3 +653,8 @@ export const ABI: Record<ErcStandard, AbiItem[]> = {
   "ERC-721": ERC721_METADATA_ABI,
   "ERC-1155": ERC1155_META_URI_ABI,
 };
+
+export const TOKEN_URI_METHOD: Record<ErcStandard, string> = {
+  "ERC-721": "tokenURI",
+  "ERC-1155": "uri",
+};

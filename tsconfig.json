@@ -20,6 +20,7 @@
       "@util/*": ["./src/utils/*"],
       "@api/*": ["./src/api/*"],
       "@type/*": ["./src/types/*"],
+      "@common/*": ["./src/common/*"]
     }
   },
   "include": ["module.d.ts", "src/**/*", "test/**/*", "env"],

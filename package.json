@@ -1,0 +1,18 @@
+{
+  "name": "nft-inspector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jsiu516/nft-metadata-inspecter.git",
+  "author": "jsiu516 <jason.siu@crypto.com>",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "8.10.0",
+    "prettier": "2.5.1",
+    "ts-node": "10.7.0",
+    "tsconfig-paths": "3.13.0",
+    "typescript": "4.6.2"
+  }
+}

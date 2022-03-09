@@ -17,6 +17,7 @@ const getOutput = async (input: InspectorInput): Promise<any> => {
   console.log(await web3.eth.getChainId());
   const abi = ABI[standard];
   const uriMethod = TOKEN_URI_METHOD[standard];
+  console.log(uriMethod);
   const contract = new web3.eth.Contract(abi, contractAddress);
   console.log(await contract.methods[uriMethod](tokenId).call());
 };

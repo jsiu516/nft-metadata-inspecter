@@ -1,0 +1,1 @@
+* A helper tool for NFT inspection. For both ERC-721, ERC-1155. *
